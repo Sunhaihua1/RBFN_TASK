@@ -1,2 +1,4 @@
 *.xlsx
 .idea/*
+*.ipynb_checkpoints
+*.ipynb
