@@ -8,6 +8,6 @@ if __name__ == '__main__':
 	model = RBFN(10, 6)
 	model.fit(x_train, y_train)  
 	final = model.predict(x_test)
-	pd.DataFrame(final).to_excel('Problem2_result.xlsx')
+	# pd.DataFrame(final).to_excel('Problem2_result.xlsx')
 	
 	print(final)
